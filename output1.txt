@@ -1,0 +1,184 @@
+    1  sudo su
+    2  ls
+    3  cd ..
+    4  ls
+    5  cd tmp
+    6  ls
+    7  ls -la
+    8  cd ..
+    9  ls
+   10  cd home
+   11  ls
+   12  cd ec2-home
+   13  cd ec2-user
+   14  ls
+   15  cd jenkins
+   16  ls
+   17  ls -la
+   18  pwd
+   19  ls -la
+   20  echo "hello!"> /home/ec2-user/jenkins/firstjob.txt
+   21  sudo echo "hello!"> /home/ec2-user/jenkins/firstjob.txt
+   22  ls -la
+   23  jenkins --version
+   24  cd ..
+   25  cd /home/ec2-user/
+   26  ls
+   27  ls -ltr
+   28  sudo chmod 777 jenkins
+   29  ls -ltr
+   30  echo "hello!"> /home/ec2-user/jenkins/firstjob.txt
+   31  ls 
+   32  ls
+   33  ls -ltr
+   34  ls -la
+   35  cd jenkins
+   36  ls
+   37  cat firstjob.txt
+   38  vi basic.sh
+   39  ls -ltr
+   40  cat basic.sh
+   41  ls
+   42  pwd
+   43  bash basic.sh
+   44  cat basic.sh
+   45  vi basic.sh
+   46  clean
+   47  exit
+   48  ls
+   49  cd jenkins
+   50  ls
+   51  ls -la
+   52  bash basic.sh
+   53  sudo chmod 777 jenkins
+   54  cd ..
+   55  sudo chmod 777 jenkins
+   56  ls -ltr
+   57  cd jenkins
+   58  ls 
+   59  cat basic.sh
+   60  ls -ltr
+   61  sudo chmod 777 basic.sh
+   62  vi basic.sh
+   63  ls -ltr
+   64  sudo chmod 777 firstjob.txt
+   65  ls -ltr
+   66  cd ..
+   67  cd /home/ec2-user/
+   68  ls -ltr:
+   69  sudo chown ec2-user:ec2-user jenkins 
+   70  ls -ltr
+   71  rm -f /home/ec2-user/jenkins/firstjob.txt
+   72  echo "hello!"> /home/ec2-user/jenkins/firstjob.txt
+   73  ls
+   74  cd jenkins
+   75  ls -ltr
+   76  cat firstjob.txt
+   77  sh /home/ec2-user/jenkins/basic.sh
+   78  id 
+   79  cd /home/ec2-user
+   80  ls -ltr
+   81  ls -la
+   82  sudo chown -R jenkins:jenkins jenkins 
+   83  ls -ltr
+   84  cd jenkins
+   85  ls -ltr
+   86  sudo chmod 777 firstjob.txt
+   87  ls -ltr
+   88  sudo su 
+   89  cd /home/
+   90  ls -ltr
+   91  sudo chmod -R 777 ec2-user
+   92  ls -ltr
+   93  ps -aef | grep -i jenkins
+   94  ls
+   95  cd jenkins
+   96  ls
+   97  cat firstjob.txt
+   98  ls
+   99  cat firstjob.txt
+  100  history >> output.txt
+  101  ls -la
+  102  sudo chmod 777 output.txt
+  103  ls -la
+  104  cat output.txt
+  105  cat firstjob.txt
+  106  cat >>firstjob.txt
+  107  ls
+  108  cd jenkins
+  109  ls
+  110  cat firstjob.txt
+  111  vi firstjob.txt
+  112  cat firstjob.txt
+  113* 
+  114  history >> output.txt
+  115  cat output.txt
+  116  cat firstjob.txt
+  117  diff firstjob.txt
+  118  cat firstjob.txt
+  119  ls -ltr
+  120  yum update -y
+  121  cd ..
+  122  ls
+  123  cd ..
+  124  ls
+  125  mkdir git
+  126  cd ec2-user
+  127  ls
+  128  mkdir git
+  129  ls
+  130  cd git
+  131  yum update -y
+  132  sudo yum update -y
+  133  sudo yum install git
+  134  git --version
+  135  git config --global user.name "Your Name"
+  136  git config --global user.email "your.email@example.com"
+  137  git config --global user.name "namu"
+  138  git config --global user.email "namu12@gmail.com"
+  139  git config --list
+  140  git init 
+  141  git config --global init.defaultBranch <main>
+  142  git config --global init.defaultBranch <master>
+  143  cd /ec2-user/git
+  144  pwd
+  145  git init
+  146  git clone
+  147  ssh -keygen -t rsa
+  148  ssh - keygen -t rsa
+  149  ssh-keygen -t rsa
+  150  cat /home/ec2-user/.ssh/id_rsa.pub
+  151  git clone git@github.com:namaahd/namaahd.git
+  152  ls
+  153  ls -la
+  154  cd namaahd
+  155  ls
+  156  ls -la
+  157  cat testing-jenkins
+  158  ssh -T git@github.com
+  159  cd /home
+  160  ls
+  161  cd ..
+  162  ls
+  163  cd var
+  164  ls
+  165  cd lib
+  166  ls
+  167  cd jenkins
+  168  ls
+  169  cd workspace
+  170  ls
+  171  pwd
+  172  cd ..
+  173  /ec2-user
+  174  cd /home/ec2-user/jenkins
+  175  ls
+  176  cd ..
+  177  ls
+  178  cd git
+  179  [200~sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace
+  180  sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace
+  181  git config --global --add safe.directory /var/lib/jenkins/workspace
+  182  git clone git@github.com:namaahd/namaahd.git
+  183  git init
+  184  history >>output1.txt
