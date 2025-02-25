@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: namu-first-pod
+  namespace: namu-demo-namespace
+spec:
+  containers:
+  - name: namu-first-container
+    image: nginx  # Or any other image you want to use
+

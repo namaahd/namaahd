@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pod-deployment-testing
+  namespace: namu-demo-namespace
+spec:
+  replicas: 3  # Number of desired replicas (pods)
+  selector:
+    matchLabels:
+      app: my-k8s-pod  # Labels used to match pods to this Deployment
+  template:  # Pod template
+    metadata:
+      labels:
+        app: my-k8s-pod # Labels applied to the pods
+    spec:
+      containers:
+      - name: namu-container
+        image: nginx:latest  # Or your application's image
+        ports:
+        - containerPort: 80 # If your app exposes a port
