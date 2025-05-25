@@ -1,1 +1,1 @@
-# k8s
+please read carefully step by step
